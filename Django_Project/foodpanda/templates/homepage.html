@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+
+{% block container %}
+<div class="media">
+
+   <h2>Media Heading</h2>
+   <p> Responsive containers allow you to specify a class that is 100% wide until the specified breakpoint is reached, after which we apply max-widths for each of the higher breakpoints. For example, .container-sm is 100% wide to start until the sm breakpoint is reached, where it will scale up with md, lg, xl, and xxl.
+
+
+<div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div> </p>
+</div>
+{% endblock %}
